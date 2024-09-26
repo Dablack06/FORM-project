@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="code.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ad-banner">
+            <img src="image/WhatsApp Image 2024-09-20 at 7.59.11 PM.jpeg" alt="Ad banner">
+        </div>
+        <h2>Registration Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+            </div>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="form-group">
+                <label for="state">State of Origin:</label>
+                <select id="state" name="state">
+                    <option value="">--Select State--</option>
+                    <option value="state1">LAGOS STATE</option>
+                    <option value="state2">IMO STATE</option>
+                    <option value="state3">ABUJA </option>
+                </select>
+            </div>
+        
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the terms and conditions</label>
+            
+            <button type="submit" class="btn-register">Register</button>
+        </form>
+    </div>
+</body>
+</html>
